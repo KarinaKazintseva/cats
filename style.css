@@ -1,0 +1,258 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    width: 100%;
+    font-size: 1rem;
+    background-image: url(1.jpg);
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 79%;
+    background: rgb(255, 238, 201);
+    opacity: 0.82;
+}
+
+.header {
+    display: flex;
+}
+
+ul.nav {
+    width: 100%;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li.nav__item {
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav .subnav li {
+    display: block;
+    margin: 0;
+}
+
+.btn {
+    display: flex;
+    align-items: left;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#modal {
+    width: 950px;
+    height: 620px;
+    background: #fff;
+    display: none;
+    border: 5px double black;
+}
+
+.form {
+    height: 10px;
+    display: flex;
+    align-items: left;
+    padding: 20px;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 30%;
+}
+
+.btn-close {
+    position: relative;
+    left: 912px;
+    top: 5px;
+}
+
+.btn-OK {
+    position: relative;
+    top: 250px;
+    left: 434px;
+    bottom: 200px;
+}
+
+.text {
+    font-size: 4vw;
+    color: #000000;
+}
+
+.link {
+    font-size: 4vw;
+    color: #000000;
+}
+
+
+/* ------------------------------------------------------- */
+
+
+/* ------------------------------------------SLIDER */
+
+
+/* ---------------------------------------------------------- */
+
+.clear {
+    clear: both;
+}
+
+.slider {
+    width: 2500px;
+    margin: 50px auto;
+    padding: 0 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide-list {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.slide-wrap {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 10000000px;
+}
+
+.slide-item {
+    width: 280px;
+    padding: 10px;
+    float: left;
+}
+
+.slide-title {
+    font: bold 16px monospace;
+    display: block;
+}
+
+.navy {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+}
+
+.prev-slide {
+    left: 0;
+    background: #dbdbdb url(bg/left-arrow.png) 11px 10% no-repeat;
+}
+
+.next-slide {
+    right: 0;
+    background: #dbdbdb url(bg/right-arrow.png) 13px 10% no-repeat;
+}
+
+.navy.disable {
+    background: #dbdbdb;
+}
+
+.auto {
+    width: 7px;
+    height: 11px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+.play {
+    background: url(bg/play.png) center no-repeat;
+}
+
+.pause {
+    background: url(bg/pause.png) center no-repeat;
+}
+
+
+/* -----------------------------SLIDER--------------------------------------------------- */
+
+.clear {
+    clear: both;
+}
+
+.slider {
+    width: 1500px;
+    margin: 50px auto;
+    padding: 0 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide-list {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.slide-wrap {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 10000000px;
+}
+
+.slide-item {
+    width: 280px;
+    padding: 10px;
+    float: left;
+}
+
+.slide-title {
+    font: bold 35px;
+    display: block;
+}
+
+.navy {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    width: 10%px;
+    cursor: pointer;
+}
+
+.prev-slide {
+    left: 0;
+    background: #dbdbdb url(bg/left-arrow.png) 11px 40% no-repeat;
+}
+
+.next-slide {
+    right: 0;
+    background: #dbdbdb url(bg/right-arrow.png) 13px 40% no-repeat;
+}
+
+
+/* ----------------------------------------------------------------------------------- */
+
+.love {
+    font-family: fantasy;
+    font-size: 100px;
+    text-align: center;
+}
+
+.fon {
+    font-size: 3vw;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.ra {
+    height: 800px;
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+}
+
+i {
+    font-size: 70px;
+}
