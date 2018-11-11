@@ -11,7 +11,7 @@ close.addEventListener('click', function() {
     modal.style.display = "none";
 });
 
-// --------------------------------SLIDER
+
 jQuery(document).ready(function() {
     function htmSlider() {
 
